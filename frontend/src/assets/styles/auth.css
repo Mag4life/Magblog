@@ -1,0 +1,45 @@
+.auth-wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+.auth-wrapper form {
+    /*border: 1px solid #000;*/
+    width: 768px;
+    /*height: 468px;*/
+    flex-direction: column;
+    padding: 50px 120px;
+    border-radius: 8px;
+}
+
+.auth-wrapper form input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 16px 15px;
+    outline: none;
+    /*border: 1px solid #ddd;*/
+    border: none;
+    border-bottom: 2px solid #61dafb;
+    font-weight: bold;
+    /*border-radius: 5px;*/
+    font-size: 16px;
+}
+
+.auth-wrapper h3 {
+    font-size: 32px;
+    color: #61dafb;
+    margin-bottom: 55px;
+}
+
+.auth-wrapper button {
+    padding: 12px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #61dafb;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 55px;
+    font-weight: bold;
+}
